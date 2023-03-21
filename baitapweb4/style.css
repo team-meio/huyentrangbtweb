@@ -1,0 +1,285 @@
+ * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    #baa {
+        display: grid;
+        grid-template-columns: 100px 930px 489px;
+        color: #242931;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .grid-item {
+        border: 1px solid rgba(26, 24, 24, 0.3);
+        text-align: center;
+    }
+    
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .left-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        width: 70%;
+    
+    }
+    
+    .left-top {
+        height: 420px;
+        margin-top: 35px;
+    }
+    
+    .left-bottom {
+        height: 120px;
+    }
+    
+    #center {
+        width: 82%;
+        margin: auto;
+    }
+    
+    
+    #tieude {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    
+    .btngio {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #f22128;
+        font-size: 16px;
+        background-color: white;
+        height: 38px;
+        width: 90px;
+        border: 1.7px solid #f22128;
+        border-radius: 20px;
+    }
+    
+    .trangthai {
+        font-size: 28px;
+    }
+    #bentrong {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 320px;
+        margin-top: 25px;
+    }
+    
+    .btnbentrong {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60px;
+        height: 20px;
+        color: white;
+        background-color: #e34d73;
+        border: none;
+        border-radius: 10px;
+    }
+    
+    .ke {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        height: 12px;
+    }
+
+    
+    #anh {
+        position: relative;
+        margin-top: 25px;
+    }
+    
+    .anhphai {
+        position: absolute;
+        right: 21px;
+        top: 10px;
+    }
+    
+    .btnten {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        background-color: #737477;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+    }
+    
+    .green {
+        color: #1dd75b;
+    }
+    
+    .anhtrai {
+        height: 30px;
+        width: 160px;
+        left: 30px;
+        top: 13px;
+    }
+    
+    
+    #pic-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .pic-item {
+        position: relative;
+    }
+    
+    .pic-right {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        height: 27px;
+    }
+    
+    .pic-btnName {
+        width: 110px;
+        height: 30px;
+        top: 10px;
+        left: 10px;
+    }
+    
+    #end{
+        display: flex;
+        justify-content: space-between;  
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .btnEnd {
+        background-color: #f22128;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        width: 125px;
+    }
+    #right-container {
+        width: 80%;
+        margin: auto;
+    }
+    
+  
+    .participant {
+        margin-top: 50px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .par-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .par-top {
+        display: flex;
+        justify-content: space-between;
+        width: 165px;
+    }
+    
+    .number4 {
+        background-color: #fdf2f4;
+        color: #ea7a96;
+        height: 30px;
+        width: 24px;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btnAdd {
+        color: #ea7a96;
+        font-size: 16px;
+        background-color: white;
+        border: 1.7px solid #ea7a96;
+        border-radius: 7px;
+        width: 70px;
+        height: 36px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .par-line {
+        display: flex;
+        align-items: center;
+    }
+    
+    .chat {
+        margin-top: 40px;
+    }
+    
+    table {
+        text-align: left;
+        margin-top: 40px;
+        height: 493px;
+    }
+    
+    table td:first-child {
+        width: 50px;
+    }
+    
+    .chat-hour {
+        font-size: 14px;
+        color: #737477;
+    }
+    
+    .bg {
+        width: 355px;
+        height: 90px;
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    .bg-icon {
+        height: 50px;
+        width: 100px;
+        background-color: #fdf2f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .add {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .txtAdd-container {
+        position: relative;
+    }
+    
+    .img-add {
+        position: absolute;
+        right: 25px;
+        top: 13px;
+    }
+    
+    .txtAdd {
+        width: 345px;
+        height: 50px;
+        background-color: #f8f9fa;
+        border: none;
+        border-radius: 15px;
+    }
